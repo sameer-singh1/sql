@@ -1,0 +1,12 @@
+create table student(
+  id not null primary key,
+  name varchar(20) not null,
+  age int(3) not null,
+  address varchar(25)
+)
+
+insert into student values(1, ram, 20, bihar);
+insert into student values(2, shyam, 21, banglore);
+insert into student values(3, abc, 22, hyederabad);
+insert into student values(4, xyz, 23, delhi);
+insert into student values(5, ankit, 24, mumbai);
