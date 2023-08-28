@@ -1,0 +1,4 @@
+select distinct score
+from student
+order by score desc
+LIMIT 1;
